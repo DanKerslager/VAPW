@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VAPW", "VAPW.csproj", "{92A8C2B0-DC0A-4634-8382-B7700B5009D4}"
+    ProjectSection(ProjectDependencies) = postProject
+        {DD66C49E-E76D-4E92-AC6B-08BE254F1FBF} = {DD66C49E-E76D-4E92-AC6B-08BE254F1FBF}
+    EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kerslager_nabijeni", "../kerslager_nabijeni\kerslager_nabijeni.csproj", "{DD66C49E-E76D-4E92-AC6B-08BE254F1FBF}"
+EndProject
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92A8C2B0-DC0A-4634-8382-B7700B5009D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A8C2B0-DC0A-4634-8382-B7700B5009D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A8C2B0-DC0A-4634-8382-B7700B5009D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A8C2B0-DC0A-4634-8382-B7700B5009D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD66C49E-E76D-4E92-AC6B-08BE254F1FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD66C49E-E76D-4E92-AC6B-08BE254F1FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD66C49E-E76D-4E92-AC6B-08BE254F1FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD66C49E-E76D-4E92-AC6B-08BE254F1FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C580FE66-996F-40AB-9312-4E85CB8B9DC4}
+	EndGlobalSection
+EndGlobal
